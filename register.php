@@ -1,5 +1,5 @@
 <?php include ("header.php")?>
-<section class="vh-100 gradient-custom">
+<section>
     <div class="container py-5 h-100">
         <div class="row justify-content-center align-items-center h-100">
             <div class="col-12 col-lg-9 col-xl-7">
@@ -32,15 +32,11 @@
                             <input type="text" name="lastName" class="form-control form-control-lg" />
                             <label class="form-label">Last Name</label>
                         </div>
-
                         </div>
-                    </div>
 
-                    <div class="row">
-                      
                         <div class="col-md-6 mb-4">
 
-                        <h6 class="mb-2 pb-1">Role: </h6>
+                        <h6>Role: </h6>
 
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="role" id="student"
@@ -73,7 +69,7 @@
                     </div>
 
                     <div class="mt-4 pt-2">
-                        <input class="btn btn-primary btn-lg" type="submit" name="regbutton" value="register" />
+                        <input class="btn btn-primary btn-lg" type="submit" name="regbutton" value="Register" />
                     </div>
 
                     </form>

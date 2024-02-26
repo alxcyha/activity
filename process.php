@@ -48,6 +48,7 @@ if(isset($_POST["regbutton"])){
         '$role', 
         current_timestamp())";
     $reg_result = mysqli_query($conn, $reg_query);
+    
     echo "Hello $username , welcome!";
 }
 ?>
